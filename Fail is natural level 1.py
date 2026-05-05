@@ -84,10 +84,8 @@ while run:
     if right_leg_x>=700:
         text=font.render("You win!!!",True,black)
         screen.blit(text,(300,400))
-    if right_leg_x>=750:
+    if right_leg_x>=720:
         run=False
-    # x,y=pygame.mouse.get_pos()
-    # print(x,y)
     grav()
     if right_leg_x>350:
         xfloo()
